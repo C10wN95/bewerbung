@@ -25,8 +25,8 @@ public class Bewerbung {
 
 		Mail mail = new Mail();
 
-		AwsBasicCredentials awsCreds = AwsBasicCredentials.create("",
-				"");
+		AwsBasicCredentials awsCreds = AwsBasicCredentials.create("AKIAYS2NVYZ24FQVAOLF",
+				"lFTFfYQzQhVHWeNH/orn84FTPl+7wChRu4+qq3+3");
 		S3Client s3 = S3Client.builder().region(Region.EU_NORTH_1)
 				.credentialsProvider(StaticCredentialsProvider.create(awsCreds)).build();
 
